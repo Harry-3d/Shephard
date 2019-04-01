@@ -1,0 +1,14 @@
+#center{
+    text-align: center;
+    margin: 0 auto;
+    font: 1em sans-serif;
+    font-weight: bold;
+    background: gray;
+    max-width: 400px;
+    padding: 5px;
+    padding-bottom: 25px;
+}
+
+body{
+    padding-top: 100px;
+}

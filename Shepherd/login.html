@@ -1,0 +1,27 @@
+<html>
+<header>
+    <title>Shepherd</title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+</header>
+
+<body>
+
+    <div id="center">
+        <form action="/login" method="POST">
+            <p>{{.Attempts}} attempts remaining</p>
+            <p>You don't want to call your supervisor</p>
+            <p>do you?</p>
+            <br>
+            <input type="text" placeholder="type your username" name="user" />
+            <br>
+            <br>
+            <input type="password" placeholder="type your password" name="pass" />
+            <br>
+            <br>
+            <button name="login-btn" type="submit">OK</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
